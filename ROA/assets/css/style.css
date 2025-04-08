@@ -1,0 +1,619 @@
+.green-txt {
+    font-weight: 300;
+    color: #4a9703;
+}
+
+.blue-txt {
+    font-weight: 900;
+    color: #030148;
+    margin-left: 10px;
+}
+
+/*  This section is for navigation  */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1000px;
+}
+
+#navbar {
+    background: white;
+    height: 80px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.049);
+    padding: 0px 50px 0px 50px;
+}
+
+#menu {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu li {
+    text-decoration: none;
+    display: inline;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+#menu li a:focus {
+    color: #4a9703;
+    color: #4a9703;
+    border-bottom: 4px solid #4a9703;
+    padding-bottom: 30px;
+}
+
+#searchbar  {
+    margin-top: 25px;
+    float: left;
+    border: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#searchbar input {
+    border-radius: 20px;
+    padding: 6px 6px 6px 12px;
+    border: none;
+    background-color: rgb(239, 239, 239);
+    width: 190px;
+}
+
+#search-icon {
+    border-radius: 15px;
+    width: 21px;
+    height: 21px;
+    padding: 4px;
+    position: absolute;
+    margin-left: 182px;
+    transform: scaleX(-1);
+    background: #030148;
+}
+
+#title {
+    width: 320px;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#title-text {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+
+#color-text-b {
+    color: #030148;
+}
+
+#color-text-g {
+    color: #4a9703;
+}
+
+#navmenu {
+    width: 550px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#portal {
+    font-weight: bold;
+    background: #4a9703;
+    color: white;
+    border-radius: 50px;
+    padding: 6px 20px 6px 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+    border: 0px;
+}
+
+/*  This section is for Welcome Box */
+
+#welcomebox {
+    width: 100%;
+    height: 650px;
+    border: none;
+    background: rgba(174, 174, 174, 0.579);
+    background: url('../img/3.png');
+    background-size: cover;
+}
+
+#welcomebox h1, h4 {
+    color: #030148;
+    margin-bottom: 6px;
+}
+
+#innerbox {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#welcomebox h1 {
+    font-size: 72px;
+    font-family: "Raleway", sans-serif;
+}
+
+#welcomebox h4 {
+    font-size: 32px;
+    width: 510px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+#welcomebox button {
+    margin-right: 6px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: transform 0.1s;
+    display: flex;
+    align-items: center;
+    padding: 11px 22px 11px 13px;
+}
+
+#welcomebox button:hover {
+    transform:scale(1.02)
+}
+
+#recover-btn {
+    background-color: #030148;
+    box-shadow: 0px 3px 0px #010026;
+}
+
+#optimize-btn {
+    background-color: #4a9703;
+    box-shadow: 0px 3px 0px #336a00;
+}
+
+#insights-btn {
+    background-color: #656565;
+    box-shadow: 0px 3px 0px #4e4e4e;
+}
+
+#button-logos {
+    border-radius: 10px;
+    filter: invert(100%);
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Recover, Optimize, Insights */
+
+#r-o-i {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 60px;
+}
+
+#optimize {
+    height: 280px;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+}
+
+.rec-ins {
+    height: 280px;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+}
+
+.symbs {
+    height: 80px;
+    width: 80px;
+    margin-left: 70px;
+}
+
+.top-text-green {
+    color: #4a9703;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 9px;
+}
+
+#top-text-blue {
+    color: #030148;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 9px;
+}
+
+#description-text-rec {
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    margin-top: 25px;
+    margin-left: 3px;
+    line-height: 23px;
+}
+
+#description-text-op {
+    width: 260px;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    margin-top: 25px;
+    margin-left: 3px;
+    line-height: 23px;
+}
+
+#description-text-ins {
+    width: 260px;
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    margin-top: 25px;
+    margin-left: 3px;
+    line-height: 23px;
+}
+
+/* About Us */
+
+.bold {
+    font-weight: bold;
+}
+
+#about-us-container {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    background-color: azure;
+}
+
+#about-us-text-section {
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+#about-us-image {
+    display: flex;
+    background-size: contain;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+#about-us-title{
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 10px;
+}
+
+#par-1, #par-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 20px;
+    font-size: 15.5px;
+}
+
+#par-1 {
+    width: 730px;
+}
+
+#par-2 {
+    width: 700px;
+}
+
+#learn-more-btn {
+    font-size: 12px;
+    margin-top: 45px;
+    font-weight: bold;
+    color: #4a9703;
+    border-color: #4a9703;
+    border: 2px solid;
+    background-color: white;
+    padding: 6px;
+    margin-left: 5px;
+}
+
+/* Sponsors Page */
+
+#section3 {
+    width: 100%;
+    background: white;
+}
+
+#section3 .sponsorimg{
+    height: 100%;
+    width: 180px;
+    padding: 30px;
+}
+
+#sponsorcontent{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 110px;
+}
+
+/* Contact Us */
+
+#cont-us-container {
+    background-color: azure;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+#contact-us-text {
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 10px;
+    position: absolute;
+    left: -60px;
+    margin-top: 43px;
+}
+
+#cont-us-left {
+    display: flex;
+    height: 100%;
+    width: 700px;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+#cont-us-right {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-color: azure;
+    position: relative;
+    flex-direction: column;
+}
+
+.horiz-align {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-logos {
+    height: 13px;
+    width: 13px;
+    padding: 11px;
+    background-color: rgb(37, 37, 37);
+    filter: invert(100%);
+    margin-top: 8px;
+}
+
+#message-logo {
+    height: 13px;
+    width: 13px;
+    padding: 11px;
+    background-color:  rgb(37, 37, 37);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    filter: invert(100%);
+}
+
+#message-box {
+    position: relative;
+    margin-top: 8px;
+}
+
+#input-boxes-cont {
+    margin-top: 120px;
+    position: absolute;
+    left: -54px;
+}
+
+#first-name, #last-name, #type-email, #phone-numb {
+    width: 292px;
+    height: 35px;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    margin-right: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+}
+
+#message {
+    width: 635px;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    padding-bottom: 80px;
+    padding-left: 43px;
+    padding-top: 10px;
+}
+
+#first-name::placeholder, #last-name::placeholder, #type-email::placeholder, #phone-numb::placeholder, #message::placeholder {
+    color: #030148;
+    font-weight: 600;
+}
+
+#send-btn {
+    position: absolute;
+    left: -50px;
+    bottom: 70px;
+}
+
+#send-btn-design {
+    margin-right: 6px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: transform 0.1s;
+    display: flex;
+    align-items: center;
+    padding: 11px 27px 11px 27px;
+    background-color: #4a9703;
+    box-shadow: 0px 3px 0px #336a00;
+}
+
+#send-btn-design:hover {
+    transform:scale(1.02)
+}
+
+/* Footer */
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    padding: 80px 170px 80px 170px;
+}
+
+#ftr-spendmend {
+    margin-right: 190px;
+}
+
+#bw-spendmend {
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+#bw-logo {
+    width: 50px;
+    height: 50px;
+}
+
+#d-gray {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 900;
+    padding-bottom: 7px;
+    color: #030148;
+}
+#l-gray {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 900;
+    padding-bottom: 7px;
+    color: #4a9703;
+}
+
+#ftr-spendmend-desc {
+    font-family: "Raleway", sans-serif;
+    font-size: 12.5px;
+    font-weight: 500;
+    width: 260px;
+    text-align: justify;
+    margin: 6px 0px 0px 20px;
+    opacity: 0.6;
+}
+
+#ftr-copyright {
+    font-family: "Raleway", sans-serif;
+    font-size: 11.5px;
+    font-weight: 500;
+    opacity: 0.6;
+    margin: 15px 0px 0px 21px;
+}
+
+.ftr-titles {
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.quicklinks {
+    margin-top: 30px;
+    position: relative;
+}
+
+.quicklinks li {
+    list-style: none;
+}
+
+.quicklinks li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13.5px;
+    font-weight: 500px;
+    opacity: 0.6;
+}
+
+#ftr-spendmend {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+#ftr-quicklinks {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+#ftr-help {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+#ftr-contact-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+}
+
+#logo-tab-spacing {
+    margin-left: 19px;
+}
+
+.ftr-contact-us-logos {
+    width: 15px;
+    height: 15px;
+    opacity: 0.6;
+    margin-right: 4px;
+}
+
+.twitter-linkedin {
+    width: 17px;
+    height: 17px;
+    opacity: 0.6;
+    margin: 18px 0px 0px 8px;
+    padding-left: 5px;
+}
+
+#double-arrows {
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    right: 0px;
+    bottom: -120px;
+    opacity: 0.10;
+}
+
